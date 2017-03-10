@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import './index.css';
 
-
-class Home extends Component {
+class Contact extends Component {
   render() {
     return (
-      <div className="home">
+      <div className="contact">
         <div className="lander">
-          <h1>Welcome Home!</h1>
+          <h1>Contact Page</h1>
         </div>
       </div>
 
@@ -15,4 +14,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Contact;
