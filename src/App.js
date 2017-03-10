@@ -1,19 +1,36 @@
 import React, { Component } from 'react';
-import { IndexLink } from 'react-router';
-import logo from './logo.svg';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 import './App.css';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+      <div className="App container">
+        <Navbar fluid collapseOnSelect>
+          <Navbar.Toggle />
+          <Navbar.Collapse>
+            <Nav pullLeft>
+
+              <LinkContainer to="/">
+                <NavItem>Home</NavItem>
+              </LinkContainer>
+
+              <LinkContainer to="/about">
+                <NavItem>About</NavItem>
+              </LinkContainer>
+
+              <LinkContainer to="/contact">
+                <NavItem>Contact</NavItem>
+              </LinkContainer>
+
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+        <div>
+          { this.props.children }
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
       </div>
     );
   }
