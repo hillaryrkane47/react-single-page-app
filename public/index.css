@@ -1,0 +1,44 @@
+/* select.form-control,
+textarea.form-control,
+input.form-control {
+  font-size: 16px;
+}
+
+input[type=file] {
+  width: 100%;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.home .about .contact .lander {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.home .about .contact .lander h1 {
+  font-weight: 600;
+}
+
+.home {
+  background-image: url()
+}
+
+
+.Home .lander {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.Home .lander h1 {
+/*   font-family: "Open Sans", sans-serif; */
+  font-weight: 600;
+}
