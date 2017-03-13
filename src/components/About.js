@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 import facts from '../data/facts.js';
+// import '../public/index.css';
 
 class About extends Component {
   render(){

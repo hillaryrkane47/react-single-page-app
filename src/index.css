@@ -1,19 +1,87 @@
-/* select.form-control,
-textarea.form-control,
-input.form-control {
-  font-size: 16px;
-}
-
-input[type=file] {
-  width: 100%;
-} */
-
+/* base styles */
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif; */
 body {
   margin: 0;
   padding: 0;
+  height:  100%;
+  width:  100%;
   font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #000000;
+  text-decoration: none;
+}
+
+nav:hover,
+nav:focus,
+a:hover,
+a:focus {
+  color: #eb3812;
+  text-decoration: none;
+}
+
+/* Home.js */
+.home,
+.home-content,
+.home-content-inner,
+.home-heading,
+.home-text,
+hr, {
+  margin: 30px auto;
+}
+
+hr {
+  border-color: #F05F40;
+  border-width: 3px;
+  max-width: 50px;
+}
+
+.home {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('http://i.imgur.com/WSYYkeO.jpg');
+  text-align: center;
+  color: white;
+
+}
+
+.home .home-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+
+.home-heading {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+
+.home-text {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+
+/* About.js */
 .App {
   margin-top: 15px;
   text-align: center;
