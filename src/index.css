@@ -29,7 +29,6 @@ a {
 }
 
 /* Home.js */
-.home,
 .home-content,
 .home-content-inner,
 .home-heading,
@@ -44,23 +43,30 @@ hr {
   max-width: 50px;
 }
 
-.home {
+/* .home {
   position: relative;
   width: 100%;
   height: 100%;
-  min-height: auto;
+  min-height: 100%;
+  background-image: url('http://i.imgur.com/WSYYkeO.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
-  background-position: center;
-  background-image: url('http://i.imgur.com/WSYYkeO.jpg');
+  background-size: cover;
   text-align: center;
-  color: white;
 
+} */
+
+.home {
+  background: url('http://i.imgur.com/WSYYkeO.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.home .home-content {
+
+.home-content {
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;

@@ -1,12 +1,7 @@
 import React from 'react';
 
 
-
 export default (props) => {
-  // const styles = {
-  //   container: { paddingTop: '50px'},
-  //   img: {maxHeight: '400px', maxWidth: '400px'}
-  // }
 
   return (
     <div className="home">
