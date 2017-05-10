@@ -113,7 +113,9 @@ a:focus {
   color: #eb3812;
   text-decoration: none;
 }
-
+a {
+  color: orange;
+}
 
 /* About.js */
 
