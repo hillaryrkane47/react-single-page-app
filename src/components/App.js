@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 
 export default (props) => {
   return (
-    <div className="App">
+    <div className="nav-container">
       <Navbar />
       { props.children }
     </div>

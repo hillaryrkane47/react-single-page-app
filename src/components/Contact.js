@@ -22,9 +22,8 @@ class Contact extends Component {
   };
 
   render() {
-    const divStyle={paddingLeft: '50px'};
     return (
-      <div style={divStyle}>
+      <div>
         <h3>Connect with me!</h3>
         <br /><br />
           { this.renderSocial() }
