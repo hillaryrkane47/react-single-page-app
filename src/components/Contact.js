@@ -14,8 +14,8 @@ class Contact extends Component {
     return this.state.social.map(hill=> {
       return(
         <div key={hill.name}>
-          <p>{hill.name} | {hill.desc}</p>
-          <br/>
+          {hill.name} | <a href={hill.link}>{hill.desc}</a>
+          <br/><br/>
         </div>
       )
     })
